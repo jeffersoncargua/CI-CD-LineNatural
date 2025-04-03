@@ -56,7 +56,7 @@ namespace LineNatural.IntegratedTest.Repository
         [InlineData(1)]
         [InlineData(10)]
         [InlineData(100)]
-        [InlineData(1000)]
+        [InlineData(1001)]
         public async Task GetAsync_ReturnProductById(int id)
         {
             using (var context = Fixture.CreateContext())
