@@ -35,7 +35,7 @@ namespace LineNatural.FuntionalTest.Controllers
         [Theory]
         [InlineData("Producto 1")]
         [InlineData("Producto 10")]
-        [InlineData("Producto 1000")]
+        [InlineData("Producto 1001")]
         [InlineData("Producto 100")]
         public async Task GetProducts_ProductsWithFilter_ReturnStatusOk(string search)
         {
