@@ -13,7 +13,7 @@ namespace LineNatural.UnitTest.DTOs
         [Theory]
         [InlineData("Juan", "juan@gmail.com","Admin123!", "admin",0)]
         [InlineData("Juan", "juan@gmail.com", "Admin123!", null, 0)]
-        [InlineData(null, "juan", "Admin123!", "admin", 2)]
+        [InlineData(null, "juan", "Admin123!", "admin", 3)]
         [InlineData("Juaneircmueieocfienueicfemfcoieeuiyeidmiomwceufomeimueoiuicef", null, "Admin123!", "admin", 2)]
         [InlineData(null, null, null, "admin", 3)]
         public void ModelValid_RegistrationRequestDto_ReturnCorrectNumnerOfErrors(string name, string email, string password,string role, int errorsExpected)
